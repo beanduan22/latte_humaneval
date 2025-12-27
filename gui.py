@@ -83,8 +83,8 @@ class HumanEvalGUI:
         img_frame.pack(pady=20)
 
         # Labels for Images
-        tk.Label(img_frame, text="[ Reference Image (exp_0) ]", font=("Verdana", 10)).grid(row=0, column=0)
-        tk.Label(img_frame, text="[ Target Image ]", font=("Verdana", 10)).grid(row=0, column=1)
+        tk.Label(img_frame, text="[ Original Image ]", font=("Verdana", 10)).grid(row=0, column=0)
+        tk.Label(img_frame, text="[ Latte ]", font=("Verdana", 10)).grid(row=0, column=1)
 
         self.ref_canvas = tk.Label(img_frame, relief="ridge", bd=3)
         self.ref_canvas.grid(row=1, column=0, padx=30, pady=10)
